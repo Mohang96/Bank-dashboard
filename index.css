@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* Navbar Section */
+.nav-menu-icon {
+    font-size: 20px;
+    color: #343C6A;
+    cursor: pointer;
+    outline: none;
+}
+
+.nav-item-name {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    color: #343C6A;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-container {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #F5F7FA;
+    border-radius: 25px;
+    padding: 6px 16px;
+}
+
+.search-icon {
+    color: #718EBF;
+    font-size: 16px;
+    margin: 0px 8px;
+}
+
+.search-bar {
+    color: #8BA3CB;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+}
+
+/* My Cards Section */
+.cards-section {
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.cards-section-title {
+    color: #343C6A;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cards-section-sub-title {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.card {
+    min-width: 240px;
+    border: none;
+    margin-right: 20px;
+}
+
+.card1-top-section {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(107.38deg, #4C49ED 2.61%, #0A06F4 101.2%);
+}
+
+.card-balance-text {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.card1-balance-text {
+    color: #ffffff;
+}
+
+.card-balance-value {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card1-balance-value {
+    color: #ffffff;
+}
+
+.card-chip {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.card-holder-and-valid-thru-text {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.card1-holder-and-valid-thru-text {
+    color: #FFFFFFB2;
+}
+
+.card-holder-name-and-expiry-date {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.card1-holder-name-and-expiry-date {
+    color: #ffffff;
+}
+
+.card1-bottom-section {
+    background: linear-gradient(180deg, #4C49ED 15% 0%, #0A06F4 100%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+}
+
+.card1-number {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+}
+
+.master-card-symbol {
+    height: 20px;
+}
+
+.card2-top-section {
+    padding: 10px;
+    border: 0.84px solid #DFEAF2;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card2-balance-text {
+    color: #718EBF;
+}
+
+.card2-balance-value {
+    color: #343C6A;
+}
+
+.card2-holder-and-valid-thru-text {
+    color: #718EBF;
+}
+
+.card2-holder-name-and-expiry-date {
+    color: #343C6A;
+}
+
+.card2-bottom-section {
+    padding: 10px;
+    border: 0.84px solid #DFEAF2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;;
+}
+
+.card2-number {
+    font-size: 12px;
+    font-weight: 600;
+    color: #343C6A;
+    margin: 0;
+}
+
+/* Recent Transaction Section */
+.recent-transaction-section {
+    margin-top: 14px;
+}
+
+.recent-transaction-section-title {
+    color: #343C6A;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.recent-transactions-list {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.transaction-mode-container {
+    border-radius: 40px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.transaction-mode-1-container {
+    background-color: #FFF5D9;
+}
+
+.transaction-mode-2-container {
+    background-color: #E7EDFF;
+}
+
+.transaction-mode-3-container {
+    background-color: #DCFAF8;
+}
+
+.transaction-mode {
+    width: 22px;
+    height: 24px;
+}
+
+.transaction-item-title {
+    color: #232323;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.transaction-date {
+    margin: 0;
+    padding: 0;
+    color: #718EBF;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.transaction-amount {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.transaction-amount-1 {
+    color: #FF4B4A;
+}
+
+.transaction-amount-2 {
+    color: #41D4A8;
+}
+
+.transaction-amount-3 {
+    color: #41D4A8;
+}
